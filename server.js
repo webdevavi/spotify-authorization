@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors')
-const router = require('./routes')
+const router = require('./router')
+
 if (process.env.NODE_ENV !== 'production') {
     require('dotenv').config()
 }
