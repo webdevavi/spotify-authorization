@@ -26,7 +26,7 @@ The header of this POST request must contain the following parameter:
 
 Header Parameter  | Value
 ---|---
-Authorization | (Required) Base 64 encoded string that contains the client ID and client secret key. The field must have the format: Authorization: Basic <base64 encoded client_id:client_secret>
+Authorization | (Required) Base 64 encoded string that contains the client ID and client secret key. The field must have the format: Authorization: `Basic <base64 encoded client_id:client_secret>`
 
 **Example**
 
